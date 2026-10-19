@@ -1,6 +1,6 @@
 # Lista de archivos del repositorio
 
-El repositorio contiene 20 archivos: cuatro en la raíz, tres en `docs/` y trece en `generated/`.
+El repositorio contiene 22 archivos: seis en la raíz, tres en `docs/` y trece en `generated/`.
 
 ## Raíz
 
@@ -38,6 +38,9 @@ El notebook lee y escribe los datos y resultados bajo `path`, cuyo valor predete
 | `resultados_clasificacion_folds_attack_type.csv` | 100 filas, 4 columnas | Diez particiones por algoritmo, con Algorithm, Fold, Accuracy y ROC AUC. |
 | `eli5_weights_xgb_et_opt.csv` | 50 filas, 3 columnas | Importancia por permutación: feature, weight y std. Para interpretar los valores, ten en cuenta el modelo, el target y los datos utilizados. |
 | `correlaciones_completas.xlsx` | Sheet1: 6.903 filas, 9 columnas | Pares de variables y correlaciones. La función exige col_x, col_y, best_corr, abs_best_corr y best_method. |
+| `LICENSE` | Licencia MIT aplicable al código del proyecto, que establece las condiciones de uso, modificación y redistribución, conservando el reconocimiento de autoría. |
+| `CITATION.cff` | Archivo de citación académica que identifica al autor, el artículo científico y su DOI, facilitando la generación de referencias bibliográficas en GitHub. |
+
 
 ## Reutilización de resultados
 
