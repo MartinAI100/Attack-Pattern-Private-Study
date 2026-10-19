@@ -1,0 +1,21 @@
+
+cff-version: 1.2.0
+
+message: "Si utilizas el código, los experimentos o los datos de este repositorio, cita preferentemente el artículo científico indicado a continuación. / If you use the code, experiments, or data in this repository, please cite the research paper listed below."
+
+type: software
+
+title: "Attack Pattern Private Study: Análisis de cibertráfico IoT / IoT Traffic Analysis"
+
+authors:
+  - family-names: "García Navarro"
+    given-names: "Martín José"
+
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "García Navarro"
+      given-names: "Martín José"
+  title: "Aprendizaje supervisado, clustering difuso e interpretabilidad con un enfoque KDD-XAI para la caracterización del cibertráfico IoT en un entorno controlado de forma privada"
+  year: 2026
+  doi: 10.5281/zenodo.20131778
