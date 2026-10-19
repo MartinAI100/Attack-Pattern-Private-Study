@@ -66,6 +66,30 @@ Se incluyen Xorg/yorg, el limpio, los dos datasets analíticos, las métricas po
 
 PCA, clustering y SHAP se calculan durante la ejecución del escenario B. Las dependencias no están fijadas a las versiones históricas, por lo que repetir una ejecución puede producir diferencias.
 
+
+## Licencias y citación
+
+Este repositorio contiene diferentes materiales
+de investigación sujetos a sus respectivas licencias.
+
+- Artículo científico: CC BY 4.0.
+  © 2026 Martín José García Navarro.
+- Código del notebook: MIT License.
+  © 2026 Martín José García Navarro.
+- Dataset RT-IoT2022: CC BY 4.0.
+  © Sus respectivos autores originales.
+- Datasets derivados: CC BY 4.0, manteniendo
+  la atribución a RT-IoT2022 e identificando
+  las modificaciones realizadas.
+
+La licencia MIT del archivo LICENSE principal
+se aplica exclusivamente al código del proyecto,
+no al artículo ni a los datasets.
+
+Para citar la investigación, consultar
+CITATION.cff y el registro del artículo en Zenodo.
+
+
 ## Conclusión y recopilación del estudio
 
 El trabajo reúne preparación de datos, exploración de patrones, agrupamiento clásico y difuso, clasificación y explicación de las decisiones. Los resultados guardados muestran una elevada capacidad de discriminación global en condiciones controladas, con limitaciones importantes en algunas clases minoritarias. La interpretación se apoya en patrones temporales, volumétricos y de control del flujo y debe distinguirse de una explicación causal.
