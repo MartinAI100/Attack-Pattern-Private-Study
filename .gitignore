@@ -1,12 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# Herramientas locales
+.idea/
+
+# Ignorar todo por defecto
 *
+
+# Archivos permitidos en la raíz
 !/.gitignore
 !/README.md
 !/CYBER.ipynb
 !/requirements.txt
+!/.env.example
+!/LICENSE
+!/LICENSE.md
+!/CITATION.cff
+
+# Documentación permitida
 !/docs/
 !/docs/USO_NOTEBOOK.md
 !/docs/LISTA_ARCHIVOS.md
 !/docs/Aprendizaje supervisado, clustering difuso e interpretabilidad con un enfoque KDD-XAI para la caracterización del cibertráfico IoT en un entorno controlado de forma privada.pdf
+
+# Datos y resultados permitidos
 !/generated/
 !/generated/Xorg.csv
 !/generated/yorg.csv
